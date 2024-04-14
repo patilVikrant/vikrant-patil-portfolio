@@ -1,13 +1,14 @@
 
 
 :root{
-    --primary-color: #00ECFF;
+    --primary-color: #00ccff;
     --dark-gray: #6B7280;
     --off-white: #f3f4f6;
 }
 
 body{
     font-family : "Roboto", sans-serif;
+    margin: 0;
 }
 
 hr{
@@ -110,4 +111,21 @@ hr{
 
 .ow{
     background-color: var(--off-white);
+}
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+
+.footer .link{
+color: white;
+
+}
+
+.footer ul{
+    padding-inline-start: 0px;
 }
